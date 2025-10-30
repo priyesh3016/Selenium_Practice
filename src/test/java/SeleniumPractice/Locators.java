@@ -12,7 +12,7 @@ public class Locators {
 		driver.get("https://testautomationpractice.blogspot.com/");
 		
 		//Finding Element By Id
-		Boolean check = false;
+		Boolean check = true;
 		check=driver.findElement(By.id("name")).isDisplayed();
 		System.out.println(check);
 		
