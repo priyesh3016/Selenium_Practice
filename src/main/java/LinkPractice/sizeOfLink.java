@@ -11,36 +11,36 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class sizeOfLink  {
 		
 	
-//	public  void  linkCount() {
-//	//1)give  me the count of  the  link 
-//		ChromeDriver driver = new  ChromeDriver();
-//		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-//		System.out.println(driver.findElements(By.tagName("a")).size());
-//		driver.quit();
-//	}
-//	
-//	//2)Count of the  footer section 
-//	public  void  footerLinks() {
-//		ChromeDriver driver = new  ChromeDriver();
-//		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-//		
-//		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));
-//		
-//		System.out.println(footerdriver.findElements(By.tagName("a")).size());
-//		driver.quit();
-//	}
-//	//
-//	public void  specificContainerLinks() {
-//		ChromeDriver driver = new  ChromeDriver();
-//		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-//		
-//		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));
-//		
-//		System.out.println(footerdriver.findElements(By.tagName("a")).size());
-//	WebElement coloumnDriver = 	footerdriver.findElement(By.xpath("//table//tbody//tr//td[1]//ul"));
-//	System.out.println(coloumnDriver.findElements(By.tagName("a")).size());
-//	driver.quit();
-//	}
+	public  void  linkCount() {
+	//1)give  me the count of  the  link 
+		ChromeDriver driver = new  ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		System.out.println(driver.findElements(By.tagName("a")).size());
+		driver.quit();
+	}
+	
+	//2)Count of the  footer section 
+	public  void  footerLinks() {
+		ChromeDriver driver = new  ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));
+		
+		System.out.println(footerdriver.findElements(By.tagName("a")).size());
+		driver.quit();
+	}
+	//
+	public void  specificContainerLinks() {
+		ChromeDriver driver = new  ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		
+		WebElement footerdriver = driver.findElement(By.id("gf-BIG"));
+		
+		System.out.println(footerdriver.findElements(By.tagName("a")).size());
+	WebElement coloumnDriver = 	footerdriver.findElement(By.xpath("//table//tbody//tr//td[1]//ul"));
+	System.out.println(coloumnDriver.findElements(By.tagName("a")).size());
+	driver.quit();
+	}
 	
 	//4.)click on the  each  link on the  column and check  if the  pages are opening
 	public void linkOpen() throws InterruptedException {
